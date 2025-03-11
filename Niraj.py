@@ -22,7 +22,7 @@ MONGO_URL = "mongodb+srv://rishi:ipxkingyt@rishiv.ncljp.mongodb.net/?retryWrites
 client = MongoClient(MONGO_URL)
 
 # Database and Collection
-db = client["niraj"]  # Database name
+db = client["vip"]  # Database name
 collection = db["Users"]  # Collection name
 
 # Dictionary to track recent attacks with a cooldown period
